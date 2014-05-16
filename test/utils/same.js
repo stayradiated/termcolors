@@ -5,7 +5,7 @@ var convertToHex = function (colors) {
   if (_.isObject(colors)) {
     colors = _.clone(colors);
     for (var key in colors) {
-      if (colors.hasOwnProperty(key)) {
+      if (colors.hasOwnProperty(key) && ! _.isString(colors[key])) {
         colors[key] = colors[key].toHexString();
       }
     }
