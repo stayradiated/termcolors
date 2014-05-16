@@ -4,7 +4,7 @@
   "description": "Convert color schemes to multiple terminal configs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec test"
+    "test": "mocha -R spec -b test"
   },
   "repository": {
     "type": "git",
