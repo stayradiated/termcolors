@@ -1,7 +1,7 @@
 module.exports = {};
 
 var formats = [
-  'css', 'defaults', 'iterm', 'termite', 'url', 'xfce', 'xresources'
+  'css', 'defaults', 'iterm', 'mintty', 'termite', 'url', 'xfce', 'xresources'
 ];
 
 formats.forEach(function (file) {
