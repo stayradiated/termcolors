@@ -3,7 +3,6 @@ var assert = require('chai').assert;
 var iterm = require('../lib/iterm');
 var defaults = require('../lib/defaults');
 var fs = require('fs');
-var tinycolor = require('../vendor/tinycolor');
 var same = require('./utils/same');
 
 describe('formats/iterm', function () {

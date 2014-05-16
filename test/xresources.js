@@ -3,7 +3,6 @@ var assert = require('chai').assert;
 var same = require('./utils/same');
 var defaults = require('../lib/defaults');
 var xresources = require('../lib/xresources');
-var tinycolor = require('../vendor/tinycolor');
 
 describe('formats/xresources', function () {
 

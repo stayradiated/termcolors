@@ -2,7 +2,6 @@ var _ = require('lodash');
 var url = require('../lib/url');
 var same = require('./utils/same');
 var assert = require('chai').assert;
-var tinycolor = require('../vendor/tinycolor');
 var defaults = require('../lib/defaults');
 
 describe('formats/url', function () {

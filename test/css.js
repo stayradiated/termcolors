@@ -3,7 +3,6 @@ var css = require('../lib/css');
 var same = require('./utils/same');
 var assert = require('chai').assert;
 var defaults = require('../lib/defaults');
-var tinycolor = require('../vendor/tinycolor');
 
 describe('formats/css', function () {
 
