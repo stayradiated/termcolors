@@ -1,0 +1,34 @@
+{
+  "name": "termcolors",
+  "version": "0.0.1",
+  "description": "Convert color schemes to multiple terminal configs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stayradiated/termcolors.git"
+  },
+  "keywords": [
+    "terminal",
+    "term",
+    "colors",
+    "config",
+    "export",
+    "import",
+    "convert",
+    "configuration",
+    "xresources"
+  ],
+  "author": "George Czabania",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stayradiated/termcolors/issues"
+  },
+  "homepage": "https://github.com/stayradiated/termcolors",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
+  }
+}
