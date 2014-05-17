@@ -29,11 +29,11 @@ gulp.task('bundle', function () {
  */
 
 gulp.task('examples', function () {
-  var defaults = require('./lib/defaults');
-  var exportAs = require('./lib/export');
-  _.each(exportAs, function (fn, name) {
+  var termcolors = require('./index');
+  _.each(termcolors, function (format, name) {
+    if (! format.hasOwnProperty('export')) return;
     var file = source(name + '.txt');
-    file.write(fn(defaults.colors));
+    file.write(format.export(termcolors.defaults.colors));
     file.pipe(gulp.dest('./examples'));
   });
 });
