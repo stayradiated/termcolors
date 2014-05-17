@@ -1,5 +1,5 @@
 [Configuration]
-ColorCursor={{=c.foreground.dhex}}
-ColorForeground={{=c.foreground.dhex}}
-ColorBackground={{=c.background.dhex}}
-ColorPalette={{=c[0].dhex}};{{=c[1].dhex}};{{=c[2].dhex}};{{=c[3].dhex}};{{=c[4].dhex}};{{=c[5].dhex}};{{=c[6].dhex}};{{=c[7].dhex}};{{=c[8].dhex}};{{=c[9].dhex}};{{=c[10].dhex}};{{=c[11].dhex}};{{=c[12].dhex}};{{=c[13].dhex}};{{=c[14].dhex}};{{=c[15].dhex}}
+ColorCursor={{=c.foreground}}
+ColorForeground={{=c.foreground}}
+ColorBackground={{=c.background}}
+ColorPalette={{=c[0]}};{{=c[1]}};{{=c[2]}};{{=c[3]}};{{=c[4]}};{{=c[5]}};{{=c[6]}};{{=c[7]}};{{=c[8]}};{{=c[9]}};{{=c[10]}};{{=c[11]}};{{=c[12]}};{{=c[13]}};{{=c[14]}};{{=c[15]}}

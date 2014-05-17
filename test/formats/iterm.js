@@ -2,7 +2,6 @@ var _ = require('lodash');
 var fs = require('fs');
 var same = require('../utils/same');
 var iterm = require('../../lib/formats/iterm');
-var assert = require('chai').assert;
 var defaults = require('../../lib/formats/defaults');
 
 describe('formats/iterm', function () {
@@ -15,6 +14,15 @@ describe('formats/iterm', function () {
     it('should parse iterm config as XML', function () {
       var output = iterm.import(OUTPUT);
       same(output, COLORS);
+    });
+
+  });
+
+  describe('.expect', function () {
+
+    it('should export iterm config as XML', function () {
+      var output = iterm.export(COLORS);
+      same(output, OUTPUT);
     });
 
   });

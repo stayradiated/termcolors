@@ -1,21 +1,21 @@
-#define foreground     {{=c.foreground.hex}}
-#define background     {{=c.background.hex}}
-#define black          {{=c[0].hex}}
-#define red            {{=c[1].hex}}
-#define green          {{=c[2].hex}}
-#define yellow         {{=c[3].hex}}
-#define blue           {{=c[4].hex}}
-#define magenta        {{=c[5].hex}}
-#define cyan           {{=c[6].hex}}
-#define white          {{=c[7].hex}}
-#define bright_black   {{=c[8].hex}}
-#define bright_red     {{=c[9].hex}}
-#define bright_green   {{=c[10].hex}}
-#define bright_yellow  {{=c[11].hex}}
-#define bright_blue    {{=c[12].hex}}
-#define bright_magenta {{=c[13].hex}}
-#define bright_cyan    {{=c[14].hex}}
-#define bright_white   {{=c[15].hex}}
+#define foreground     {{=c.foreground}}
+#define background     {{=c.background}}
+#define black          {{=c[0]}}
+#define red            {{=c[1]}}
+#define green          {{=c[2]}}
+#define yellow         {{=c[3]}}
+#define blue           {{=c[4]}}
+#define magenta        {{=c[5]}}
+#define cyan           {{=c[6]}}
+#define white          {{=c[7]}}
+#define bright_black   {{=c[8]}}
+#define bright_red     {{=c[9]}}
+#define bright_green   {{=c[10]}}
+#define bright_yellow  {{=c[11]}}
+#define bright_blue    {{=c[12]}}
+#define bright_magenta {{=c[13]}}
+#define bright_cyan    {{=c[14]}}
+#define bright_white   {{=c[15]}}
 
 ! special
 *.foreground:   foreground

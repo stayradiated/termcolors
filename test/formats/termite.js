@@ -17,4 +17,13 @@ describe('formats/termite', function () {
 
   });
 
+  describe('.export', function () {
+
+    it('should export termite files', function () {
+      var actual = termite.export(COLORS);
+      same(actual, OUTPUT);
+    });
+
+  });
+
 });
