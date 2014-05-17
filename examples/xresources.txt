@@ -1,0 +1,55 @@
+#define foreground     #ffffff
+#define background     #000000
+#define black          #000000
+#define red            #cc0403
+#define green          #19cb00
+#define yellow         #cecb00
+#define blue           #001cd1
+#define magenta        #cb1ed1
+#define cyan           #0dcdcd
+#define white          #e5e5e5
+#define bright_black   #4d4d4d
+#define bright_red     #3e0605
+#define bright_green   #23fd00
+#define bright_yellow  #fffd00
+#define bright_blue    #0026ff
+#define bright_magenta #fd28ff
+#define bright_cyan    #14ffff
+#define bright_white   #ffffff
+
+! special
+*.foreground:   foreground
+*.background:   background
+*.cursorColor:  foreground
+
+! black
+*.color0:       black
+*.color8:       bright_black
+
+! red
+*.color1:       red
+*.color9:       bright_red
+
+! green
+*.color2:       green
+*.color10:      bright_green
+
+! yellow
+*.color3:       yellow
+*.color11:      bright_yellow
+
+! blue
+*.color4:       blue
+*.color12:      bright_blue
+
+! magenta
+*.color5:       magenta
+*.color13:      bright_magenta
+
+! cyan
+*.color6:       cyan
+*.color14:      bright_cyan
+
+! white
+*.color7:       white
+*.color15:      bright_white

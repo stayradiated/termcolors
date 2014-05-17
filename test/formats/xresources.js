@@ -1,17 +1,17 @@
 var fs = require('fs');
 var assert = require('chai').assert;
-var same = require('./utils/same');
-var defaults = require('../lib/defaults');
-var xresources = require('../lib/xresources');
+var same = require('../utils/same');
+var defaults = require('../../lib/formats/defaults');
+var xresources = require('../../lib/formats/xresources');
 
 describe('formats/xresources', function () {
 
   var COLORS = defaults.colors;
-  var OUTPUT = fs.readFileSync(__dirname + '/files/defaults.xresources').toString();
+  var OUTPUT = fs.readFileSync(__dirname + '/../../examples/xresources.txt', 'utf8');
 
   describe('.import', function () {
 
-    it('should parse colors 0 - 15', function () {
+    it('should parse configuration', function () {
 
       var actual = xresources.import(OUTPUT);
       same(actual, COLORS);
@@ -114,42 +114,23 @@ describe('formats/xresources', function () {
 
     });
 
-    it('should handle default color names', function () {
-
+    it('should replace definitions properly', function () {
       var actual = xresources.import(
-        'color0: black \n'+
-        'color1: red \n'+
-        'color2: green \n'+
-        'color3: yellow \n'+
-        'color4: blue \n'+
-        'color5: magenta \n'+
-        'color6: cyan \n'+
-        'color7: white \n'
+        '#define x  #aaaaaa \n'+
+        '#define xx #bbbbbb \n'+
+        '#define background #cccccc \n'+
+        '*.background: background \n'+
+        '*.color0: x \n'+
+        '*.color1: xx \n'
       );
 
       var expected = {
-        0: '#000000',
-        1: '#cc0403',
-        2: '#19cb00',
-        3: '#cecb00',
-        4: '#001cd1',
-        5: '#cb1ed1',
-        6: '#0dcdcd',
-        7: '#e5e5e5'
+        0: '#aaaaaa',
+        1: '#bbbbbb',
+        background: '#cccccc'
       };
 
       same(actual, expected);
-
-    });
-
-  });
-
-  describe('.export', function () {
-
-    it('should export as a valid Xresources file', function () {
-
-      var output = xresources.export(defaults.colors);
-      same(output, OUTPUT);
 
     });
 

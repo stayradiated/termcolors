@@ -1,8 +1,8 @@
 var _ = require('lodash');
-var url = require('../lib/url');
-var same = require('./utils/same');
+var url = require('../../lib/formats/url');
+var same = require('../utils/same');
 var assert = require('chai').assert;
-var defaults = require('../lib/defaults');
+var defaults = require('../../lib/formats/defaults');
 
 describe('formats/url', function () {
 

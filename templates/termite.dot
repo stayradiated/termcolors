@@ -1,0 +1,39 @@
+[colors]
+
+# special
+foreground      = {{=c.foreground.hex}}
+foreground_bold = {{=c.foreground.hex}}
+cursor          = {{=c.foreground.hex}}
+background      = {{=c.background.hex}}
+
+# black
+color0  = {{=c[0].hex}}
+color8  = {{=c[8].hex}}
+
+# red
+color1  = {{=c[1].hex}}
+color9  = {{=c[9].hex}}
+
+# green
+color2  = {{=c[2].hex}}
+color10 = {{=c[10].hex}}
+
+# yellow
+color3  = {{=c[3].hex}}
+color11 = {{=c[11].hex}}
+
+# blue
+color4  = {{=c[4].hex}}
+color12 = {{=c[12].hex}}
+
+# magenta
+color5  = {{=c[5].hex}}
+color13 = {{=c[13].hex}}
+
+# cyan
+color6  = {{=c[6].hex}}
+color14 = {{=c[14].hex}}
+
+# white
+color7  = {{=c[7].hex}}
+color15 = {{=c[15].hex}}

@@ -4,7 +4,7 @@
   "description": "Convert color schemes to multiple terminal configs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec -b test"
+    "test": "mocha -R spec -b test/**/*"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,11 @@
   },
   "homepage": "https://github.com/stayradiated/termcolors",
   "devDependencies": {
+    "brfs": "^1.1.1",
+    "browserify": "^4.1.4",
     "chai": "^1.9.1",
-    "mocha": "^1.18.2"
+    "gulp": "^3.6.2",
+    "mocha": "^1.18.2",
+    "vinyl-source-stream": "^0.1.1"
   }
 }

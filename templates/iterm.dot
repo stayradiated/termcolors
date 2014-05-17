@@ -1,0 +1,259 @@
+xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ansi 0 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[0].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[0].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[0].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 1 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[1].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[1].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[1].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 10 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[10].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[10].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[10].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 11 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[11].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[11].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[11].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 12 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[12].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[12].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[12].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 13 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[13].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[13].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[13].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 14 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[14].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[14].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[14].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 15 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[15].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[15].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[15].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 2 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[2].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[2].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[2].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 3 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[3].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[3].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[3].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 4 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[4].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[4].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[4].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 5 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[5].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[5].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[5].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 6 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[6].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[6].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[6].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 7 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[7].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[7].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[7].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 8 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[8].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[8].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[8].srgb[0]}}</real>
+	</dict>
+	<key>Ansi 9 Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c[9].srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c[9].srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c[9].srgb[0]}}</real>
+	</dict>
+	<key>Background Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c.background.srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c.background.srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c.background.srgb[0]}}</real>
+	</dict>
+	<key>Bold Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c.foreground.srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c.foreground.srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c.foreground.srgb[0]}}</real>
+	</dict>
+	<key>Cursor Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c.foreground.srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c.foreground.srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c.foreground.srgb[0]}}</real>
+	</dict>
+	<key>Cursor Text Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c.background.srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c.background.srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c.background.srgb[0]}}</real>
+	</dict>
+	<key>Foreground Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c.foreground.srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c.foreground.srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c.foreground.srgb[0]}}</real>
+	</dict>
+	<key>Selected Text Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c.foreground.srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c.foreground.srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c.foreground.srgb[0]}}</real>
+	</dict>
+	<key>Selection Color</key>
+	<dict>
+		<key>Color Space</key>
+		<string>sRGB</string>
+		<key>Blue Component</key>
+		<real>{{=c.background.srgb[2]}}</real>
+		<key>Green Component</key>
+		<real>{{=c.background.srgb[1]}}</real>
+		<key>Red Component</key>
+		<real>{{=c.background.srgb[0]}}</real>
+	</dict>
+</dict>
+</plist>
