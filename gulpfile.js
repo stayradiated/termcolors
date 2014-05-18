@@ -3,6 +3,8 @@ var gulp = require('gulp');
 var brfs = require('brfs');
 var browserify = require('browserify');
 var source = require('vinyl-source-stream');
+var uglify = require('gulp-uglify');
+var streamify = require('gulp-streamify');
 
 gulp.task('default', ['bundle']); 
 
@@ -20,6 +22,7 @@ gulp.task('bundle', function () {
   .bundle({ standalone: 'termColors' })
   .on('error', console.log.bind(console))
   .pipe(source('termcolors.js'))
+  .pipe(streamify(uglify()))
   .pipe(gulp.dest('./'));
 });
 
