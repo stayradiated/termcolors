@@ -17,11 +17,10 @@ gulp.task('bundle', function () {
   return browserify()
   .add('./index.js')
   .exclude('lodash')
-  .exclude('dot')
   .transform(brfs)
   .bundle({ standalone: 'termColors' })
   .on('error', console.log.bind(console))
-  .pipe(source('termcolors.js'))
+  .pipe(source('bundle.min.js'))
   .pipe(streamify(uglify()))
   .pipe(gulp.dest('./'));
 });
