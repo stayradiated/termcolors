@@ -37,7 +37,6 @@
   "dependencies": {
     "dot": "^1.0.2",
     "lodash": "^2.4.1",
-    "tinytinycolor": "0.0.3",
-    "urlsafe-base64": "0.0.2"
+    "tinytinycolor": "0.0.3"
   }
 }
