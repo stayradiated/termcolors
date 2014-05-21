@@ -95,7 +95,7 @@ Check the `templates` folder for some examples.
 `termcolors.create.export(template, [transformer])`
 
 - template (string)
-- [transformer] (function)
+- transformer (function)
 
 The transformer is an optional function that is passed the colors input into
 the template and can transform them for use in the template.
@@ -125,11 +125,11 @@ var cssTemplate = termcolors.create.export(template, toHex);
 ```
 
 
-**Example With LoDash.paLoDash.mapValues Converter:**
+**Example With Lodash Mapping:**
 
 ```javascript
 var _ = require('lodash');
-var template = 'body { backgdround: {{=c.background}}; }'
+var template = 'body { background: {{=c.background}}; }'
 
 var toHex = _.partialRight(_.mapValues, function (color) {
     return color.toHexString();

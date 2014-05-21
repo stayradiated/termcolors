@@ -1,3 +1,4 @@
+var _ = require('lodash');
 var gulp = require('gulp');
 var brfs = require('gulp-brfs');
 var source = require('vinyl-source-stream');
@@ -21,9 +22,9 @@ gulp.task('bundle', function () {
  */
 
 gulp.task('examples', function () {
-  var termcolors = require('./index');
+  var termcolors = require('./lib/index');
   _.each(termcolors, function (format, name) {
-    if (! format.hasOwnProperty('export')) return;
+    if (name == 'create' || ! format.hasOwnProperty('export')) return;
     var file = source(name + '.txt');
     file.write(format.export(termcolors.defaults.colors));
     file.pipe(gulp.dest('./examples'));
