@@ -134,6 +134,22 @@ describe('formats/xresources', function () {
 
     });
 
+    it('should ignore opacity', function () {
+      var actual = xresources.import(
+        'background: [20] #aaaaaa \n'+
+        'foreground:[90]#cccccc \n'+
+        'urxvt.color0: [100]#123000'
+      );
+
+      var expected = {
+        background: '#aaaaaa',
+        foreground: '#cccccc',
+        0: '#123000'
+      };
+
+      same(actual, expected);
+    });
+
   });
 
 });
