@@ -24,7 +24,7 @@ gulp.task('bundle', function () {
 gulp.task('examples', function () {
   var termcolors = require('./lib/index');
   _.each(termcolors, function (format, name) {
-    if (name == 'create' || ! format.hasOwnProperty('export')) return;
+    if (! format.hasOwnProperty('export')) return;
     var file = source(name + '.txt');
     file.write(format.export(termcolors.defaults.colors));
     file.pipe(gulp.dest('./examples'));

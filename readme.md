@@ -92,7 +92,7 @@ Check the `templates` folder for some examples.
 
 **Usage:**
 
-`termcolors.create.export(template, [transformer])`
+`termcolors.export(template, [transformer])`
 
 - template (string)
 - transformer (function)
@@ -107,7 +107,7 @@ This is useful so that you don't have to use the tinycolor
 ```javascript
 var template = 'body { background {{=c.background.toHexString()}}; }'
 
-var cssTemplate = termcolors.create.export(template);
+var cssTemplate = termcolors.export(template);
 ```
 
 **Example With Converter:**
@@ -121,7 +121,7 @@ var toHex = function (colors) {
     }
 };
 
-var cssTemplate = termcolors.create.export(template, toHex);
+var cssTemplate = termcolors.export(template, toHex);
 ```
 
 
@@ -135,6 +135,6 @@ var toHex = _.partialRight(_.mapValues, function (color) {
     return color.toHexString();
 });
 
-var cssTemplate = termcolors.create.export(template, toHex);
+var cssTemplate = termcolors.export(template, toHex);
 ```
 
