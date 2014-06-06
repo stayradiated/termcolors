@@ -1,5 +1,5 @@
-#define foreground     #ffffff
-#define background     #000000
+#define fg             #ffffff
+#define bg             #000000
 #define black          #000000
 #define red            #cc0403
 #define green          #19cb00
@@ -18,9 +18,9 @@
 #define bright_white   #ffffff
 
 ! special
-*.foreground:   foreground
-*.background:   background
-*.cursorColor:  foreground
+*.foreground:   fg
+*.background:   bg
+*.cursorColor:  fg
 
 ! black
 *.color0:       black

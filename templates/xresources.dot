@@ -1,5 +1,5 @@
-#define foreground     {{=c.foreground}}
-#define background     {{=c.background}}
+#define fg             {{=c.foreground}}
+#define bg             {{=c.background}}
 #define black          {{=c[0]}}
 #define red            {{=c[1]}}
 #define green          {{=c[2]}}
@@ -18,9 +18,9 @@
 #define bright_white   {{=c[15]}}
 
 ! special
-*.foreground:   foreground
-*.background:   background
-*.cursorColor:  foreground
+*.foreground:   fg
+*.background:   bg
+*.cursorColor:  fg
 
 ! black
 *.color0:       black
