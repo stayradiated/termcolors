@@ -6,7 +6,7 @@ var convertToHex = function (colors) {
     colors = _.clone(colors);
     for (var key in colors) {
       if (colors.hasOwnProperty(key) && ! _.isString(colors[key])) {
-        colors[key] = colors[key].hexString();
+        colors[key] = colors[key].toHex();
       }
     }
     return colors;
@@ -14,12 +14,12 @@ var convertToHex = function (colors) {
   
   if (_.isArray(colors)) {
     return _.map(colors, function (color) {
-      return color.hexString();
+      return color.toHex();
     });
   }
   
-  if (colors.hexString) { 
-    return colors.hexString();
+  if (colors.toHex) { 
+    return colors.toHex();
   } 
 
   return colors;

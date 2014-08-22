@@ -1,6 +1,6 @@
 {
   "name": "termcolors",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Convert color schemes to multiple terminal configs",
   "main": "./pkg/index.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "mocha": "^1.21.4"
   },
   "dependencies": {
-    "color": "git://github.com/stayradiated/color",
+    "colr": "^1.0.1",
     "dot": "^1.0.2",
     "lodash": "^2.4.1"
   }
