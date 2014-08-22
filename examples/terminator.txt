@@ -2,8 +2,8 @@
   [[terminal.sexy]]
     background_image = None
     copy_on_selection = True
-    palette = "#000000:#cc0403:#19cb00:#cecb00:#001cd1:#cb1ed1:#0dcdcd:#e5e5e5:#4d4d4d:#3e0605:#23fd00:#fffd00:#0026ff:#fd28ff:#14ffff:#ffffff"
-    foreground_color = "#ffffff"
+    palette = "#000000:#CC0403:#19CB00:#CECB00:#001CD1:#CB1ED1:#0DCDCD:#E5E5E5:#4D4D4D:#3E0605:#23FD00:#FFFD00:#0026FF:#FD28FF:#14FFFF:#FFFFFF"
+    foreground_color = "#FFFFFF"
     background_color = "#000000"
-    cursor_color = "#ffffff"
+    cursor_color = "#FFFFFF"
 

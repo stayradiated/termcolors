@@ -1,6 +1,6 @@
 {
   "name": "termcolors",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Convert color schemes to multiple terminal configs",
   "main": "./pkg/index.js",
   "scripts": {
@@ -28,15 +28,15 @@
   },
   "homepage": "https://github.com/stayradiated/termcolors",
   "devDependencies": {
-    "gulp": "^3.6.2",
-    "gulp-brfs": "0.0.1",
+    "gulp": "^3.8.7",
+    "gulp-brfs": "0.0.5",
     "vinyl-source-stream": "^0.1.1",
     "chai": "^1.9.1",
-    "mocha": "^1.18.2"
+    "mocha": "^1.21.4"
   },
   "dependencies": {
+    "color": "git://github.com/stayradiated/color",
     "dot": "^1.0.2",
-    "lodash": "^2.4.1",
-    "tinytinycolor": "0.0.3"
+    "lodash": "^2.4.1"
   }
 }

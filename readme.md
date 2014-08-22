@@ -105,7 +105,7 @@ This is useful so that you don't have to use the tinycolor
 **Example Without Converter:**
 
 ```javascript
-var template = 'body { background {{=c.background.toHexString()}}; }'
+var template = 'body { background {{=c.background.hexString()}}; }'
 
 var cssTemplate = termcolors.export(template);
 ```
@@ -117,7 +117,7 @@ var template = 'body { background: {{=c.background}}; }'
 
 var toHex = function (colors) {
     return {
-        background: colors.background.toHexString();
+        background: colors.background.hexString();
     }
 };
 
@@ -132,7 +132,7 @@ var _ = require('lodash');
 var template = 'body { background: {{=c.background}}; }'
 
 var toHex = _.partialRight(_.mapValues, function (color) {
-    return color.toHexString();
+    return color.hexString();
 });
 
 var cssTemplate = termcolors.export(template, toHex);

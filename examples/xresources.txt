@@ -1,21 +1,21 @@
-#define fg             #ffffff
+#define fg             #FFFFFF
 #define bg             #000000
 #define black          #000000
-#define red            #cc0403
-#define green          #19cb00
-#define yellow         #cecb00
-#define blue           #001cd1
-#define magenta        #cb1ed1
-#define cyan           #0dcdcd
-#define white          #e5e5e5
-#define bright_black   #4d4d4d
-#define bright_red     #3e0605
-#define bright_green   #23fd00
-#define bright_yellow  #fffd00
-#define bright_blue    #0026ff
-#define bright_magenta #fd28ff
-#define bright_cyan    #14ffff
-#define bright_white   #ffffff
+#define red            #CC0403
+#define green          #19CB00
+#define yellow         #CECB00
+#define blue           #001CD1
+#define magenta        #CB1ED1
+#define cyan           #0DCDCD
+#define white          #E5E5E5
+#define bright_black   #4D4D4D
+#define bright_red     #3E0605
+#define bright_green   #23FD00
+#define bright_yellow  #FFFD00
+#define bright_blue    #0026FF
+#define bright_magenta #FD28FF
+#define bright_cyan    #14FFFF
+#define bright_white   #FFFFFF
 
 ! special
 *.foreground:   fg
