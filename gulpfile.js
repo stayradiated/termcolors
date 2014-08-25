@@ -27,6 +27,8 @@ gulp.task('examples', function () {
     if (! format.hasOwnProperty('export')) return;
     var file = source(name + '.txt');
     file.write(format.export(termcolors.defaults.colors));
-    file.pipe(gulp.dest('./examples'));
+    file.pipe(gulp.dest('./examples', {
+      mode: '644'
+    }));
   });
 });
