@@ -22,7 +22,7 @@ describe('exporter', function () {
     var template = '{{=c.background.toDoubleHex()}}';
     var fn = exporter(template);
     var result = fn({background: Colr.fromHex('#aabbcc')});
-    assert.equal(result, '#AAAABBBBCCCC');
+    assert.equal(result, '#aaaabbbbcccc');
   });
 
   it('should support averaged rgb', function () {

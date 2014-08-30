@@ -1,6 +1,6 @@
 {
   "name": "termcolors",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "description": "Convert color schemes to multiple terminal configs",
   "main": "./pkg/index.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "mocha": "^1.21.4"
   },
   "dependencies": {
-    "colr": "^1.0.1",
+    "colr": "^1.2.0",
     "dot": "^1.0.2",
     "lodash": "^2.4.1"
   }

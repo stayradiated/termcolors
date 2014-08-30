@@ -26,8 +26,8 @@ describe('formats/xresources', function () {
       );
 
       var expected = {
-        background: '#BADA55',
-        foreground: '#C0FFEE'
+        background: '#bada55',
+        foreground: '#c0ffee'
       };
 
       same(actual, expected);
@@ -52,8 +52,8 @@ describe('formats/xresources', function () {
         2:  '#234567',
         3:  '#345678',
         4:  '#456789',
-        5:  '#56789A',
-        6:  '#6789AB',
+        5:  '#56789a',
+        6:  '#6789ab',
       };
 
       same(actual, expected);
@@ -74,10 +74,10 @@ describe('formats/xresources', function () {
       );
 
       var expected = {
-        1: '#FF0000',
-        2: '#00FF00',
-        3: '#00FFFF',
-        9: '#FF0000'
+        1: '#ff0000',
+        2: '#00ff00',
+        3: '#00ffff',
+        9: '#ff0000'
       };
 
       same(actual, expected);
@@ -92,7 +92,7 @@ describe('formats/xresources', function () {
       );
 
       var expected = {
-        1: '#FF0000'
+        1: '#ff0000'
       };
 
       same(actual, expected);
@@ -107,7 +107,7 @@ describe('formats/xresources', function () {
       );
 
       var expected = {
-        2: '#FF0000'
+        2: '#ff0000'
       };
 
       same(actual, expected);
@@ -125,9 +125,9 @@ describe('formats/xresources', function () {
       );
 
       var expected = {
-        0: '#AAAAAA',
-        1: '#BBBBBB',
-        background: '#CCCCCC'
+        0: '#aaaaaa',
+        1: '#bbbbbb',
+        background: '#cccccc'
       };
 
       same(actual, expected);
@@ -142,8 +142,8 @@ describe('formats/xresources', function () {
       );
 
       var expected = {
-        background: '#AAAAAA',
-        foreground: '#CCCCCC',
+        background: '#aaaaaa',
+        foreground: '#cccccc',
         0: '#123000'
       };
 
