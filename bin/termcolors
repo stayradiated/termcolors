@@ -12,6 +12,7 @@ program
   .version(pkg.version)
   .option('-i, --input [format]', 'Input format')
   .option('-o, --output [format]', 'Output format')
+  .option('-v, --verbose', 'Display warning messages')
   .parse(process.argv);
 
 
@@ -35,7 +36,7 @@ process.stdin.pipe(concat(function (buffer) {
   var contents = buffer.toString('utf8');
   var colors = termcolors[program.input].import(contents);
 
-  checkColors(colors);
+  if (program.verbose) { checkColors(colors); }
   termcolors.defaults.fill(colors);
 
   var output = termcolors[program.output].export(colors);

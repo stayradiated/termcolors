@@ -62,6 +62,22 @@ describe('formats/xresources', function () {
 
     });
 
+    it('should ignore invalid color names', function () {
+      var actual = xresources.import(
+        'color20:           #012345 \n'+
+        '.color-1:          #123456 \n'+
+        '*color00:          #234567 \n'+
+        'urxvt.color16:     #345678 \n'+
+        'urxvt*someground:  #456789 \n'+
+        'URxvt.backfore:    #56789A \n'+
+        'URxvt*99:          #6789AB \n'
+      );
+
+      var expected = {};
+
+      same(actual, expected);
+    });
+
     it('should replace definitions', function () {
 
       var actual = xresources.import(
