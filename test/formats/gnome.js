@@ -1,3 +1,5 @@
+'use strict';
+
 var _ = require('lodash');
 var fs = require('fs');
 var gnome = require('../../lib/formats/gnome');

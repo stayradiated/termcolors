@@ -1,3 +1,5 @@
+'use strict';
+
 var fs = require('fs');
 var same = require('../utils/same');
 var termite = require('../../lib/formats/termite');

@@ -1,3 +1,5 @@
+'use strict';
+
 var _ = require('lodash');
 var fs = require('fs');
 var textmate = require('../../lib/formats/textmate');

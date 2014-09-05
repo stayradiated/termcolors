@@ -1,3 +1,5 @@
+'use strict';
+
 var Colr = require('colr');
 var assert = require('chai').assert;
 var exporter = require('../lib/exporter');

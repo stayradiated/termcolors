@@ -36,6 +36,7 @@ process.stdin.pipe(concat(function (buffer) {
   var colors = termcolors[program.input].import(contents);
 
   checkColors(colors);
+  termcolors.defaults.fill(colors);
 
   var output = termcolors[program.output].export(colors);
   console.log(output);
@@ -44,10 +45,15 @@ process.stdin.pipe(concat(function (buffer) {
 function checkColors (colors) {
   var valid = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
     'foreground', 'background'];
+  var missing = [];
 
   for (var i = 0; i < 18; i += 1) {
     if (! colors.hasOwnProperty(valid[i])) {
-      console.log('\u001b[31m', '! Missing color: ', valid[i], '\u001b[0m');
+      missing.push(valid[i]);
     }
+  }
+
+  if (missing.length) {
+    console.log('# MISSING', missing.join());
   }
 }

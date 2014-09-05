@@ -16,6 +16,8 @@ npm install termcolors
 
 ## Terminal Usage
 
+Missing colors will be automatically replaced with the default colors.
+
 ``` shell
 $ termcolors -i xresources -o json < ~/.Xresources > colors.json
 ```
