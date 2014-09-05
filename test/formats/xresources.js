@@ -152,6 +152,24 @@ describe('formats/xresources', function () {
       same(actual, expected);
     });
 
+    it('should parse rgb:a/b/c colors', function () {
+      var actual = xresources.import(
+        'background: rgb:a/b/c \n' +
+        'foreground: rgb:c0/af/21 \n' +
+        'urxvt.color0: rgb:d/9f/a \n' +
+        'urxvt.color1: rgb:00/11/22'
+      );
+
+      var expected = {
+        background: '#aabbcc',
+        foreground: '#c0af21',
+        0: '#dd9faa',
+        1: '#001122'
+      };
+
+      same(actual, expected);
+    });
+
   });
 
 });
