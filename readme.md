@@ -6,15 +6,21 @@ Many templates are sourced from the
 [Base16-Builder](https://github.com/chriskempson/base16-builder).
 
 Colors are handled using
-[tinytinycolor](https://www.npmjs.org/package/tinytinycolor).
+[Colr](https://github.com/stayradiated/colr).
 
 ## Installation
 
 ```
-npm install --save termcolors
+npm install termcolors
 ```
 
-## Usage
+## Terminal Usage
+
+``` shell
+$ termcolors -i xresources -o json < ~/.Xresources > colors.json
+```
+
+## JS API Usage
 
 ```javascript
 var fs = require('fs');
@@ -50,6 +56,12 @@ Only some formats support importing.
 **Konsole**
 
 - `konsole`
+- Export
+
+**JSON**
+
+- `json`
+- Import
 - Export
 
 **MinTTY**

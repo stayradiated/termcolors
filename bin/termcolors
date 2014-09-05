@@ -1,0 +1,53 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var program = require('commander');
+var concat = require('concat-stream');
+
+var termcolors = require('../pkg');
+var pkg = require('../package.json');
+
+program
+  .version(pkg.version)
+  .option('-i, --input [format]', 'Input format')
+  .option('-o, --output [format]', 'Output format')
+  .parse(process.argv);
+
+
+if (!(program.input && program.output)) {
+  console.log('Must declare input and output formats');
+  return;
+}
+
+if (!(termcolors[program.input] && termcolors[program.input].import)) {
+  console.log('Invalid input format: ', program.input);
+  return;
+}
+
+if (!(termcolors[program.output] && termcolors[program.output].export)) {
+  console.log('Invalid output format: ', program.output);
+  return;
+}
+
+// read all data from stdin
+process.stdin.pipe(concat(function (buffer) {
+  var contents = buffer.toString('utf8');
+  var colors = termcolors[program.input].import(contents);
+
+  checkColors(colors);
+
+  var output = termcolors[program.output].export(colors);
+  console.log(output);
+}));
+
+function checkColors (colors) {
+  var valid = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
+    'foreground', 'background'];
+
+  for (var i = 0; i < 18; i += 1) {
+    if (! colors.hasOwnProperty(valid[i])) {
+      console.log('\u001b[31m', '! Missing color: ', valid[i], '\u001b[0m');
+    }
+  }
+}
