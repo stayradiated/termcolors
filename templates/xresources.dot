@@ -1,55 +1,36 @@
-#define fg             {{=c.foreground}}
-#define bg             {{=c.background}}
-#define black          {{=c[0]}}
-#define red            {{=c[1]}}
-#define green          {{=c[2]}}
-#define yellow         {{=c[3]}}
-#define blue           {{=c[4]}}
-#define magenta        {{=c[5]}}
-#define cyan           {{=c[6]}}
-#define white          {{=c[7]}}
-#define bright_black   {{=c[8]}}
-#define bright_red     {{=c[9]}}
-#define bright_green   {{=c[10]}}
-#define bright_yellow  {{=c[11]}}
-#define bright_blue    {{=c[12]}}
-#define bright_magenta {{=c[13]}}
-#define bright_cyan    {{=c[14]}}
-#define bright_white   {{=c[15]}}
-
 ! special
-*.foreground:   fg
-*.background:   bg
-*.cursorColor:  fg
+*.foreground:   {{=c.foreground}}
+*.background:   {{=c.background}}
+*.cursorColor:  {{=c.foreground}}
 
 ! black
-*.color0:       black
-*.color8:       bright_black
+*.color0:       {{=c[0]}}
+*.color8:       {{=c[8]}}
 
 ! red
-*.color1:       red
-*.color9:       bright_red
+*.color1:       {{=c[1]}}
+*.color9:       {{=c[9]}}
 
 ! green
-*.color2:       green
-*.color10:      bright_green
+*.color2:       {{=c[2]}}
+*.color10:      {{=c[10]}}
 
 ! yellow
-*.color3:       yellow
-*.color11:      bright_yellow
+*.color3:       {{=c[3]}}
+*.color11:      {{=c[11]}}
 
 ! blue
-*.color4:       blue
-*.color12:      bright_blue
+*.color4:       {{=c[4]}}
+*.color12:      {{=c[12]}}
 
 ! magenta
-*.color5:       magenta
-*.color13:      bright_magenta
+*.color5:       {{=c[5]}}
+*.color13:      {{=c[13]}}
 
 ! cyan
-*.color6:       cyan
-*.color14:      bright_cyan
+*.color6:       {{=c[6]}}
+*.color14:      {{=c[14]}}
 
 ! white
-*.color7:       white
-*.color15:      bright_white
+*.color7:       {{=c[7]}}
+*.color15:      {{=c[15]}}

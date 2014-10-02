@@ -1,55 +1,36 @@
-#define fg             #ffffff
-#define bg             #000000
-#define black          #000000
-#define red            #cc0403
-#define green          #19cb00
-#define yellow         #cecb00
-#define blue           #001cd1
-#define magenta        #cb1ed1
-#define cyan           #0dcdcd
-#define white          #e5e5e5
-#define bright_black   #4d4d4d
-#define bright_red     #3e0605
-#define bright_green   #23fd00
-#define bright_yellow  #fffd00
-#define bright_blue    #0026ff
-#define bright_magenta #fd28ff
-#define bright_cyan    #14ffff
-#define bright_white   #ffffff
-
 ! special
-*.foreground:   fg
-*.background:   bg
-*.cursorColor:  fg
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #ffffff
 
 ! black
-*.color0:       black
-*.color8:       bright_black
+*.color0:       #000000
+*.color8:       #4d4d4d
 
 ! red
-*.color1:       red
-*.color9:       bright_red
+*.color1:       #cc0403
+*.color9:       #3e0605
 
 ! green
-*.color2:       green
-*.color10:      bright_green
+*.color2:       #19cb00
+*.color10:      #23fd00
 
 ! yellow
-*.color3:       yellow
-*.color11:      bright_yellow
+*.color3:       #cecb00
+*.color11:      #fffd00
 
 ! blue
-*.color4:       blue
-*.color12:      bright_blue
+*.color4:       #001cd1
+*.color12:      #0026ff
 
 ! magenta
-*.color5:       magenta
-*.color13:      bright_magenta
+*.color5:       #cb1ed1
+*.color13:      #fd28ff
 
 ! cyan
-*.color6:       cyan
-*.color14:      bright_cyan
+*.color6:       #0dcdcd
+*.color14:      #14ffff
 
 ! white
-*.color7:       white
-*.color15:      bright_white
+*.color7:       #e5e5e5
+*.color15:      #ffffff

@@ -188,4 +188,13 @@ describe('formats/xresources', function () {
 
   });
 
+  describe('.export', function () {
+
+    it('should export as guake', function () {
+      var actual = xresources.export(COLORS);
+      same(actual, OUTPUT);
+    });
+
+  });
+
 });
