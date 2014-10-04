@@ -49,21 +49,21 @@ Only some formats support importing.
 - `guake`
 - Export
 
-**iTerm2**
+**iTerm**
 
 - `iterm`
 - Import
-- Export
-
-**Konsole**
-
-- `konsole`
 - Export
 
 **JSON**
 
 - `json`
 - Import
+- Export
+
+**Konsole**
+
+- `konsole`
 - Export
 
 **MinTTY**
@@ -76,6 +76,11 @@ Only some formats support importing.
 - `putty`
 - Export
 
+**Terminal.app**
+
+- `terminalapp`
+- Export
+
 **Terminator**
 
 - `terminator`
@@ -85,6 +90,11 @@ Only some formats support importing.
 
 - `termite`
 - Import
+- Export
+
+**Textmate / Sublime Text**
+
+- `textmate`
 - Export
 
 **XFCE4 Terminal**
