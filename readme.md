@@ -37,7 +37,12 @@ fs.writeFile('~/config.itermcolors', iterm);
 
 ## Supported Formats
 
-Only some formats support importing.
+*Note: only a select few formats support importing.*
+
+**Chrome Secure Shell**
+
+- `chromeshell`
+- Export
 
 **Gnome**
 
