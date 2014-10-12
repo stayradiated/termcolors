@@ -71,6 +71,11 @@ fs.writeFile('~/config.itermcolors', iterm);
 - `konsole`
 - Export
 
+**Linux console
+
+- `linux`
+- Export
+
 **MinTTY**
 
 - `mintty`
