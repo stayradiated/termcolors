@@ -39,23 +39,25 @@ describe('formats/xresources', function () {
     it('should parse different prefixes', function () {
 
       var actual = xresources.import(
-        'color0:        #012345 \n'+
-        '.color1:       #123456 \n'+
-        '*color2:       #234567 \n'+
-        'urxvt.color3:  #345678 \n'+
-        'urxvt*color4:  #456789 \n'+
-        'URxvt.color5:  #56789A \n'+
-        'URxvt*color6:  #6789AB \n'
+        'color0       : #000000 \n'+
+        '*color1      : #111111 \n'+
+        '*.color2     : #222222 \n'+
+        'aterm.color3 : #333333 \n'+
+        'xterm*color4 : #444444 \n'+
+        'urxvt*color5 : #555555 \n'+
+        'URxvt.color6 : #666666 \n'+
+        'URxvt*color7 : #777777 \n'
       );
 
       var expected = {
-        0:  '#012345',
-        1:  '#123456',
-        2:  '#234567',
-        3:  '#345678',
-        4:  '#456789',
-        5:  '#56789a',
-        6:  '#6789ab',
+        0:  '#000000',
+        1:  '#111111',
+        2:  '#222222',
+        3:  '#333333',
+        4:  '#444444',
+        5:  '#555555',
+        6:  '#666666',
+        7:  '#777777',
       };
 
       same(actual, expected);
@@ -70,7 +72,8 @@ describe('formats/xresources', function () {
         'urxvt.color16:     #345678 \n'+
         'urxvt*someground:  #456789 \n'+
         'URxvt.backfore:    #56789A \n'+
-        'URxvt*99:          #6789AB \n'
+        'URxvt*99:          #6789AB \n'+
+        'xpdf.background:   #cccaaa'
       );
 
       var expected = {};
