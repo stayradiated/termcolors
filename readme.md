@@ -86,6 +86,11 @@ fs.writeFile('~/config.itermcolors', iterm);
 - `putty`
 - Export
 
+**Simple Terminal**
+
+- `st`
+- Export
+
 **Terminal.app**
 
 - `terminalapp`
