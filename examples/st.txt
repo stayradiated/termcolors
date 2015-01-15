@@ -21,9 +21,6 @@ static const char *colorname[] = {
   [14] = "#14ffff", /* cyan    */
   [15] = "#ffffff", /* white   */
 
-  /* required by st */
-  [255] = 0,
-
   /* special colors */
   [256] = "#000000", /* background */
   [257] = "#ffffff", /* foreground */
