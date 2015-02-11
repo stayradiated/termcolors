@@ -94,6 +94,7 @@ fs.writeFile('~/config.itermcolors', iterm);
 **Terminal.app**
 
 - `terminalapp`
+- Import (experimental)
 - Export
 
 **Terminator**
