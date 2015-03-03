@@ -16,10 +16,21 @@ npm install termcolors
 
 ## Terminal Usage
 
+Use the `-i` and `-o` flags to set the input and output formats. Pipe the input
+data into stdin.
+
 Missing colors will be automatically replaced with the default colors.
 
+Reading from one file and writing to another:
+
 ``` shell
-$ termcolors -i xresources -o json < ~/.Xresources > colors.json
+$ termcolors -i xresources -o json < ~/.Xresources > output.json
+```
+
+Reading from `xrdb` output, and writing to stdout:
+
+``` shell
+$ xrdb -q | termcolors -i xresources -o text
 ```
 
 ## JS API Usage
@@ -106,6 +117,11 @@ fs.writeFile('~/config.itermcolors', iterm);
 
 - `termite`
 - Import
+- Export
+
+**Plain Text**
+
+- `text`
 - Export
 
 **Textmate / Sublime Text**

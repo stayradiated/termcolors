@@ -10,11 +10,39 @@ var pkg = require('../package.json');
 
 program
   .version(pkg.version)
+  .option('-l, --list', 'List available formats')
   .option('-i, --input [format]', 'Input format')
   .option('-o, --output [format]', 'Output format')
   .option('-v, --verbose', 'Display warning messages')
   .parse(process.argv);
 
+if (program.list) {
+  for (var key in termcolors) {
+    if (! termcolors.hasOwnProperty(key)) {
+      continue;
+    }
+    var format = termcolors[key];
+    var canImport = format.hasOwnProperty('import');
+    var canExport = format.hasOwnProperty('export');
+
+    if (!canExport && !canImport) {
+      continue;
+    }
+
+    // ugh, hacky way to pad a string with spaces
+    var line = (key + "            ").slice(0, 12);
+
+    if (canExport) {
+      line += ' [export]';
+    }
+    if (canImport) {
+      line += ' [import]';
+    }
+
+    console.log(line);
+  }
+  return;
+}
 
 if (!(program.input && program.output)) {
   console.log('Must declare input and output formats');
