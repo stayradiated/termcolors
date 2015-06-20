@@ -82,7 +82,7 @@ fs.writeFile('~/config.itermcolors', iterm);
 - `konsole`
 - Export
 
-**Linux console
+**Linux console**
 
 - `linux`
 - Export
