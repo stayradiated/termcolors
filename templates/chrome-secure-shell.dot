@@ -1,4 +1,4 @@
-background-color: {{=c.background}} //R:{{=c.backgroundR}} G:{{=c.backgroundG}} B:{{=c.backgroundB}}
-foreground-color: {{=c.foreground}} //R:{{=c.foregroundR}} G:{{=c.foregroundG}} B:{{=c.foregroundB}}
-cursor-color:     {{=c.foreground}} //R:{{=c.foregroundR}} G:{{=c.foregroundG}} B:{{=c.foregroundB}}
-color-palette-override: {"0":"{{=c[0]}}","1":"{{=c[1]}}","2":"{{=c[2]}}","3":"{{=c[3]}}","4":"{{=c[4]}}","5":"{{=c[5]}}","6":"{{=c[6]}}","7":"{{=c[7]}}","8":"{{=c[8]}}","9":"{{=c[9]}}","10":"{{=c[10]}}","11":"{{=c[11]}}","12":"{{=c[12]}}","13":"{{=c[13]}}","14":"{{=c[14]}}","15":"{{=c[15]}}"}
+"background-color": "{{=c.background}}",
+"foreground-color": "{{=c.foreground}}",
+"cursor-color":     "{{=c.foreground}}",
+"color-palette-overrides": ["{{=c[0]}}","{{=c[1]}}","{{=c[2]}}","{{=c[3]}}","{{=c[4]}}","{{=c[5]}}","{{=c[6]}}","{{=c[7]}}","{{=c[8]}}","{{=c[9]}}","{{=c[10]}}","{{=c[11]}}","{{=c[12]}}","{{=c[13]}}","{{=c[14]}}","{{=c[15]}}"]
