@@ -36,7 +36,7 @@
     "gulp": "^3.8.11",
     "gulp-brfs": "0.1.0",
     "vinyl-source-stream": "^1.0.0",
-    "chai": "^2.1.0",
+    "chai": "^3.5.0",
     "mocha": "^2.1.0"
   },
   "dependencies": {
@@ -44,6 +44,6 @@
     "commander": "^2.6.0",
     "concat-stream": "^1.4.7",
     "dot": "^1.0.3",
-    "lodash": "^3.3.1"
+    "lodash": "^4.3.0"
   }
 }
