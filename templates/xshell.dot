@@ -1,4 +1,4 @@
-[Xshell]
+[terminal.sexy]
 text={{=c.foreground}}
 text(bold)={{=c.foreground}}
 background={{=c.background}}
@@ -19,5 +19,5 @@ cyan(bold)={{=c[14]}}
 white={{=c[7]}}
 white(bold)={{=c[15]}}
 [Names]
-name0=Xshell
+name0=terminal.sexy
 count=1
