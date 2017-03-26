@@ -4,7 +4,9 @@
   "description": "Convert color schemes to multiple terminal configs",
   "main": "./pkg/index.js",
   "scripts": {
-    "test": "mocha -R spec -b test/*"
+    "test": "mocha -R spec -b test/*",
+    "bundle": "gulp bundle",
+    "examples": "gulp examples"
   },
   "repository": {
     "type": "git",
