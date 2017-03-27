@@ -5,7 +5,7 @@
   "main": "./pkg/index.js",
   "scripts": {
     "test": "mocha -R spec -b test/*",
-    "bundle": "gulp bundle",
+    "build": "gulp bundle",
     "examples": "gulp examples"
   },
   "repository": {
@@ -35,17 +35,18 @@
   },
   "homepage": "https://github.com/stayradiated/termcolors",
   "devDependencies": {
+    "chai": "^3.5.0",
     "gulp": "^3.8.11",
     "gulp-brfs": "0.1.0",
-    "vinyl-source-stream": "^1.0.0",
-    "chai": "^3.5.0",
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "vinyl-source-stream": "^1.0.0"
   },
   "dependencies": {
     "colr": "^1.2.1",
     "commander": "^2.6.0",
     "concat-stream": "^1.4.7",
     "dot": "^1.0.3",
+    "js-yaml": "^3.8.2",
     "lodash": "^4.3.0"
   }
 }

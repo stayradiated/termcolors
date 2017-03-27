@@ -50,95 +50,26 @@ fs.writeFile('~/config.itermcolors', iterm);
 
 *Note: only a select few formats support importing.*
 
-**Chrome Secure Shell**
-
-- `chromeshell`
-- Export
-
-**Gnome**
-
-- `gnome`
-- Export
-
-**Guake**
-
-- `guake`
-- Export
-
-**iTerm**
-
-- `iterm`
-- Import
-- Export
-
-**JSON**
-
-- `json`
-- Import
-- Export
-
-**Konsole**
-
-- `konsole`
-- Export
-
-**Linux console**
-
-- `linux`
-- Export
-
-**MinTTY**
-
-- `mintty`
-- Export
-
-**Putty**
-
-- `putty`
-- Export
-
-**Simple Terminal**
-
-- `st`
-- Export
-
-**Terminal.app**
-
-- `terminalapp`
-- Import (experimental)
-- Export
-
-**Terminator**
-
-- `terminator`
-- Export
-
-**Termite**
-
-- `termite`
-- Import
-- Export
-
-**Plain Text**
-
-- `text`
-- Export
-
-**Textmate / Sublime Text**
-
-- `textmate`
-- Export
-
-**XFCE4 Terminal**
-
-- `xfce`
-- Export
-
-**Xresources**
-
-- `xresources`
-- Import
-- Export
+| Name                    | ID            | Import | Export |
+|-------------------------|---------------|--------|--------|
+| Alacritty               | `alacritty`   | ✅      | ✅      |
+| Chrome Secure Shell     | `chromeshell` |        | ✅      |
+| Gnome                   | gnome         |        | ✅      |
+| Guake                   | guake         |        | ✅      |
+| iTerm                   | iterm         | ✅      | ✅      |
+| JSON                    | json          | ✅      | ✅      |
+| Konsole                 | konsole       |        | ✅      |
+| Linux Console           | linux         |        | ✅      |
+| MinTTY                  | mintty        |        | ✅      |
+| Putty                   | putty         |        | ✅      |
+| Simple Terminal         | st            |        | ✅      |
+| Terminal.app            | terminalapp   | ✅      | ✅      |
+| Terminator              | terminator    |        | ✅      |
+| Termite                 | termite       | ✅      | ✅      |
+| Plain Text              | text          |        | ✅      |
+| Sublime Text / Textmate | textmate      |        | ✅      |
+| XFCE4 Terminal          | xfce          |        | ✅      |
+| Xresources              | xresources    | ✅      | ✅      |
 
 ## DIY Export
 
