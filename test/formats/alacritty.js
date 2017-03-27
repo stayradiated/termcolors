@@ -11,6 +11,15 @@ describe('formats/alacritty', function () {
   var COLORS = defaults.colors;
   var OUTPUT = fs.readFileSync(__dirname + '/../../examples/alacritty.txt', 'utf8');
 
+  describe('.import', function () {
+
+    it('should import alacritty files', function () {
+      var actual = alacritty.import(OUTPUT);
+      same(actual, COLORS);
+    });
+
+  });
+
   describe('.export', function () {
 
     it('should export as alacritty', function () {
