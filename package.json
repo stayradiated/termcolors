@@ -1,6 +1,6 @@
 {
   "name": "termcolors",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "Convert color schemes to multiple terminal configs",
   "main": "./pkg/index.js",
   "scripts": {
