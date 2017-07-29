@@ -66,6 +66,7 @@ fs.writeFile('~/config.itermcolors', iterm);
 | Terminal.app            | `terminalapp` | ✅      | ✅      |
 | Terminator              | `terminator`  |        | ✅      |
 | Termite                 | `termite`     | ✅      | ✅      |
+| Tilix                   | `tilix`       |        | ✅      |
 | Plain Text              | `text`        |        | ✅      |
 | Sublime Text / Textmate | `textmate`    |        | ✅      |
 | XFCE4 Terminal          | `xfce`        |        | ✅      |
