@@ -1,0 +1,36 @@
+! special
+URxvt.foreground:   {{=c.foreground}}
+URxvt.background:   {{=c.background}}
+URxvt.cursorColor:  {{=c.foreground}}
+
+! black
+URxvt.color0:       {{=c[0]}}
+URxvt.color8:       {{=c[8]}}
+
+! red
+URxvt.color1:       {{=c[1]}}
+URxvt.color9:       {{=c[9]}}
+
+! green
+URxvt.color2:       {{=c[2]}}
+URxvt.color10:      {{=c[10]}}
+
+! yellow
+URxvt.color3:       {{=c[3]}}
+URxvt.color11:      {{=c[11]}}
+
+! blue
+URxvt.color4:       {{=c[4]}}
+URxvt.color12:      {{=c[12]}}
+
+! magenta
+URxvt.color5:       {{=c[5]}}
+URxvt.color13:      {{=c[13]}}
+
+! cyan
+URxvt.color6:       {{=c[6]}}
+URxvt.color14:      {{=c[14]}}
+
+! white
+URxvt.color7:       {{=c[7]}}
+URxvt.color15:      {{=c[15]}}
