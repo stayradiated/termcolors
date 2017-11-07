@@ -249,11 +249,11 @@
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Blue Component</key>
-		<real>{{=c.background[2]}}</real>
+		<real>{{=c[8][2]}}</real>
 		<key>Green Component</key>
-		<real>{{=c.background[1]}}</real>
+		<real>{{=c[8][1]}}</real>
 		<key>Red Component</key>
-		<real>{{=c.background[0]}}</real>
+		<real>{{=c[8][0]}}</real>
 	</dict>
 </dict>
 </plist>
