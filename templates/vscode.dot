@@ -1,0 +1,22 @@
+{
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlack": "{{=c[0]}}",
+    "terminal.ansiBlue": "{{=c[4]}}",
+    "terminal.ansiBrightBlack": "{{=c[8]}}",
+    "terminal.ansiBrightBlue": "{{=c[12]}}",
+    "terminal.ansiBrightCyan": "{{=c[14]}}",
+    "terminal.ansiBrightGreen": "{{=c[10]}}",
+    "terminal.ansiBrightMagenta": "{{=c[13]}}",
+    "terminal.ansiBrightRed": "{{=c[9]}}",
+    "terminal.ansiBrightWhite": "{{=c[15]}}",
+    "terminal.ansiBrightYellow": "{{=c[11]}}",
+    "terminal.ansiCyan": "{{=c[6]}}",
+    "terminal.ansiGreen": "{{=c[2]}}",
+    "terminal.ansiMagenta": "{{=c[5]}}",
+    "terminal.ansiRed": "{{=c[1]}}",
+    "terminal.ansiWhite": "{{=c[7]}}",
+    "terminal.ansiYellow": "{{=c[3]}}",
+    "terminal.background": "{{=c.foreground}}",
+    "terminal.foreground": "{{=c.background}}"
+  }
+}
