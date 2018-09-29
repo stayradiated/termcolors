@@ -1,9 +1,15 @@
 # special
+active_border_color     {{=c.foreground}}
+inactive_border_color   {{=c.background}}
+bell_border_color       {{=c[3]}}
+url_color               {{=c[2]}}
+
 active_tab_foreground   {{=c.foreground}}
 active_tab_background   {{=c.background}}
 inactive_tab_foreground {{=c[8]}}
 inactive_tab_background {{=c.background}}
 
+cursor                  {{=c.foreground}}
 foreground              {{=c.foreground}}
 background              {{=c.background}}
 selection_foreground    {{=c[15]}}
@@ -14,8 +20,8 @@ color0                  {{=c[0]}}
 color8                  {{=c[8]}}
 
 # red
-color2                  {{=c[1]}}
-color10                 {{=c[9]}}
+color1                  {{=c[1]}}
+color09                 {{=c[9]}}
 
 # green
 color2                  {{=c[2]}}

@@ -1,9 +1,15 @@
 # special
+active_border_color     #ffffff
+inactive_border_color   #000000
+bell_border_color       #cecb00
+url_color               #19cb00
+
 active_tab_foreground   #ffffff
 active_tab_background   #000000
 inactive_tab_foreground #4d4d4d
 inactive_tab_background #000000
 
+cursor                  #ffffff
 foreground              #ffffff
 background              #000000
 selection_foreground    #ffffff
@@ -14,6 +20,10 @@ color0                  #000000
 color8                  #4d4d4d
 
 # red
+color1                  #cc0403
+color09                 #3e0605
+
+# green
 color2                  #19cb00
 color10                 #23fd00
 
