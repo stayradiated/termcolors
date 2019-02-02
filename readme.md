@@ -52,24 +52,25 @@ fs.writeFile('~/config.itermcolors', iterm);
 
 | Name                    | ID            | Import | Export |
 |-------------------------|---------------|--------|--------|
-| Alacritty               | `alacritty`   | ✅      | ✅      |
-| Chrome Secure Shell     | `chromeshell` |        | ✅      |
-| Gnome                   | `gnome`       |        | ✅      |
-| Guake                   | `guake`       |        | ✅      |
-| iTerm                   | `iterm`       | ✅      | ✅      |
-| JSON                    | `json`        | ✅      | ✅      |
-| Konsole                 | `konsole`     |        | ✅      |
-| Linux Console           | `linux`       |        | ✅      |
-| MinTTY                  | `mintty`      |        | ✅      |
-| Putty                   | `putty`       |        | ✅      |
-| Simple Terminal         | `st`          |        | ✅      |
-| Terminal.app            | `terminalapp` | ✅      | ✅      |
-| Terminator              | `terminator`  |        | ✅      |
-| Termite                 | `termite`     | ✅      | ✅      |
-| Plain Text              | `text`        |        | ✅      |
-| Sublime Text / Textmate | `textmate`    |        | ✅      |
-| XFCE4 Terminal          | `xfce`        |        | ✅      |
-| Xresources              | `xresources`  | ✅      | ✅      |
+| Alacritty               | `alacritty`   | ✅     | ✅     |
+| Chrome Secure Shell     | `chromeshell` |        | ✅     |
+| Gnome                   | `gnome`       |        | ✅     |
+| Guake                   | `guake`       |        | ✅     |
+| iTerm                   | `iterm`       | ✅     | ✅     |
+| JSON                    | `json`        | ✅     | ✅     |
+| Konsole                 | `konsole`     |        | ✅     |
+| Linux Console           | `linux`       |        | ✅     |
+| MinTTY                  | `mintty`      |        | ✅     |
+| Putty                   | `putty`       |        | ✅     |
+| Simple Terminal         | `st`          |        | ✅     |
+| Terminal.app            | `terminalapp` | ✅     | ✅     |
+| Terminator              | `terminator`  |        | ✅     |
+| Termite                 | `termite`     | ✅     | ✅     |
+| Plain Text              | `text`        |        | ✅     |
+| Sublime Text / Textmate | `textmate`    |        | ✅     |
+| Wal                     | `wal`         |        | ✅     |
+| XFCE4 Terminal          | `xfce`        |        | ✅     |
+| Xresources              | `xresources`  | ✅     | ✅     |
 
 ## DIY Export
 
@@ -87,7 +88,7 @@ Check the `templates` folder for some examples.
 The transformer is an optional function that is passed the colors input into
 the template and can transform them for use in the template.
 
-This is useful so that you don't have to use the tinycolor 
+This is useful so that you don't have to use the tinycolor
 
 **Example Without Converter:**
 
