@@ -1,0 +1,24 @@
+{
+  "name":"terminal.sexy",
+
+  "foreground"   : "#000000",
+  "background"   : "#ffffff",
+
+  "black"        : "#000000",
+  "red"          : "#cc0403",
+  "green"        : "#19cb00",
+  "yellow"       : "#cecb00",
+  "blue"         : "#001cd1",
+  "purple"       : "#cb1ed1",
+  "cyan"         : "#0dcdcd",
+  "white"        : "#e5e5e5",
+
+  "brightBlack"  : "#4d4d4d",
+  "brightRed"    : "#3e0605",
+  "brightGreen"  : "#23fd00",
+  "brightYellow" : "#fffd00",
+  "brightBlue"   : "#0026ff",
+  "brightPurple" : "#fd28ff",
+  "brightCyan"   : "#14ffff",
+  "brightWhite"  : "#ffffff"
+}
