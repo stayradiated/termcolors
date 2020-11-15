@@ -1,34 +1,26 @@
 var _ = require('lodash');
 var gulp = require('gulp');
 var brfs = require('gulp-brfs');
-var source = require('vinyl-source-stream');
+var fs = require('fs');
 
-gulp.task('default', ['bundle']); 
-
-
-/**
- * Bundle code into browser compatible file
- */
-
-gulp.task('bundle', function () {
+function bundle () {
   return gulp.src('lib/**/*.js', {buffer: false})
   .pipe(brfs())
   .pipe(gulp.dest('pkg'));
-});
+};
 
+exports.default = bundle;
+
+gulp.task('bundle', bundle);
 
 /**
  * Create examples contents
  */
 
-gulp.task('examples', function () {
+gulp.task('examples', function (cb) {
   var termcolors = require('./lib/index');
   _.each(termcolors, function (format, name) {
     if (! format.hasOwnProperty('export')) return;
-    var file = source(name + '.txt');
-    file.write(format.export(termcolors.defaults.colors));
-    file.pipe(gulp.dest('./examples', {
-      mode: '644'
-    }));
+    fs.writeFile('./examples/' + name + '.txt', format.export(termcolors.defaults.colors), cb);
   });
 });

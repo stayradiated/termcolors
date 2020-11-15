@@ -37,10 +37,9 @@
   "homepage": "https://github.com/stayradiated/termcolors",
   "devDependencies": {
     "chai": "^3.5.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-brfs": "0.1.0",
-    "mocha": "^3.4.1",
-    "vinyl-source-stream": "^1.1.0"
+    "mocha": "^3.4.1"
   },
   "dependencies": {
     "colr": "^1.2.2",

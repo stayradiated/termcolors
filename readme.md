@@ -58,6 +58,7 @@ fs.writeFile('~/config.itermcolors', iterm);
 | Guake                   | `guake`       |        | ✅      |
 | iTerm                   | `iterm`       | ✅      | ✅      |
 | JSON                    | `json`        | ✅      | ✅      |
+| Kitty                   | `kitty`       |        | ✅      |
 | Konsole                 | `konsole`     |        | ✅      |
 | Linux Console           | `linux`       |        | ✅      |
 | MinTTY                  | `mintty`      |        | ✅      |
