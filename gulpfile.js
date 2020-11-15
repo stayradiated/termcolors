@@ -3,6 +3,10 @@ var gulp = require('gulp');
 var brfs = require('gulp-brfs');
 var fs = require('fs');
 
+/**
+ * Bundle code into browser compatible file
+ */
+
 function bundle () {
   return gulp.src('lib/**/*.js', {buffer: false})
   .pipe(brfs())
