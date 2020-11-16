@@ -60,6 +60,7 @@ fs.writeFile('~/config.itermcolors', iterm);
 | JSON                    | `json`        | ✅      | ✅      |
 | Konsole                 | `konsole`     |        | ✅      |
 | Linux Console           | `linux`       |        | ✅      |
+| lxterminal              | `lxterminal`  |        | ✅      |
 | MinTTY                  | `mintty`      |        | ✅      |
 | Putty                   | `putty`       |        | ✅      |
 | Simple Terminal         | `st`          |        | ✅      |
@@ -68,6 +69,8 @@ fs.writeFile('~/config.itermcolors', iterm);
 | Termite                 | `termite`     | ✅      | ✅      |
 | Plain Text              | `text`        |        | ✅      |
 | Sublime Text / Textmate | `textmate`    |        | ✅      |
+| Tilix                   | `tilix`       |        | ✅      |
+| Wal                     | `wal`         |        | ✅     |
 | XFCE4 Terminal          | `xfce`        |        | ✅      |
 | Xresources              | `xresources`  | ✅      | ✅      |
 
@@ -87,7 +90,7 @@ Check the `templates` folder for some examples.
 The transformer is an optional function that is passed the colors input into
 the template and can transform them for use in the template.
 
-This is useful so that you don't have to use the tinycolor 
+This is useful so that you don't have to use the tinycolor
 
 **Example Without Converter:**
 
