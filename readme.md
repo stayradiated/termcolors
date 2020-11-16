@@ -60,6 +60,7 @@ fs.writeFile('~/config.itermcolors', iterm);
 | JSON                    | `json`        | ✅      | ✅      |
 | Konsole                 | `konsole`     |        | ✅      |
 | Linux Console           | `linux`       |        | ✅      |
+| lxterminal              | `lxterminal`  |        | ✅      |
 | MinTTY                  | `mintty`      |        | ✅      |
 | Putty                   | `putty`       |        | ✅      |
 | Simple Terminal         | `st`          |        | ✅      |
