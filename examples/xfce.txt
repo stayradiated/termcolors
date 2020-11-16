@@ -1,4 +1,4 @@
-[Configuration]
+[Scheme]
 ColorCursor=#ffffffffffff
 ColorForeground=#ffffffffffff
 ColorBackground=#000000000000
