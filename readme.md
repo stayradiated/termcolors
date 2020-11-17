@@ -50,30 +50,33 @@ fs.writeFile('~/config.itermcolors', iterm);
 
 *Note: only a select few formats support importing.*
 
-| Name                    | ID            | Import | Export |
-|-------------------------|---------------|--------|--------|
-| Alacritty               | `alacritty`   | ✅      | ✅      |
-| Chrome Secure Shell     | `chromeshell` |        | ✅      |
-| Gnome                   | `gnome`       |        | ✅      |
-| Guake                   | `guake`       |        | ✅      |
-| iTerm                   | `iterm`       | ✅      | ✅      |
-| JSON                    | `json`        | ✅      | ✅      |
-| Kitty                   | `kitty`       |        | ✅      |
-| Konsole                 | `konsole`     |        | ✅      |
-| Linux Console           | `linux`       |        | ✅      |
-| lxterminal              | `lxterminal`  |        | ✅      |
-| MinTTY                  | `mintty`      |        | ✅      |
-| Putty                   | `putty`       |        | ✅      |
-| Simple Terminal         | `st`          |        | ✅      |
-| Terminal.app            | `terminalapp` | ✅      | ✅      |
-| Terminator              | `terminator`  |        | ✅      |
-| Termite                 | `termite`     | ✅      | ✅      |
-| Plain Text              | `text`        |        | ✅      |
-| Sublime Text / Textmate | `textmate`    |        | ✅      |
-| Tilix                   | `tilix`       |        | ✅      |
-| Wal                     | `wal`         |        | ✅     |
-| XFCE4 Terminal          | `xfce`        |        | ✅      |
-| Xresources              | `xresources`  | ✅      | ✅      |
+| Name                    | ID               | Import | Export |
+|-------------------------|------------------|--------|--------|
+| Alacritty               | `alacritty`      | ✅      | ✅      |
+| Chrome Secure Shell     | `chromeshell`    |        | ✅      |
+| Gnome                   | `gnome`          |        | ✅      |
+| Guake                   | `guake`          |        | ✅      |
+| iTerm                   | `iterm`          | ✅      | ✅      |
+| JSON                    | `json`           | ✅      | ✅      |
+| Kitty                   | `kitty`          |        | ✅      |
+| Konsole                 | `konsole`        |        | ✅      |
+| Linux Console           | `linux`          |        | ✅      |
+| lxterminal              | `lxterminal`     |        | ✅      |
+| MinTTY                  | `mintty`         |        | ✅      |
+| Putty                   | `putty`          |        | ✅      |
+| Simple Terminal         | `st`             |        | ✅      |
+| Terminal.app            | `terminalapp`    | ✅      | ✅      |
+| Terminator              | `terminator`     |        | ✅      |
+| Termite                 | `termite`        | ✅      | ✅      |
+| Plain Text              | `text`           |        | ✅      |
+| Sublime Text / Textmate | `textmate`       |        | ✅      |
+| Tilix                   | `tilix`          |        | ✅      |
+| urxvt                   | `urxvt`          |        | ✅      |
+| Wal                     | `wal`            |        | ✅      |
+| XFCE4 Terminal          | `xfce`           |        | ✅      |
+| Windows Terminal        | `windowsTerminal`| ✅      | ✅      |
+| Xresources              | `xresources`     | ✅      | ✅      |
+| XSHELL                  | `xshell`         |        | ✅      |
 
 ## DIY Export
 

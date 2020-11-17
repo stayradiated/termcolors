@@ -1,4 +1,11 @@
+# NodeJS
+
 /node_modules
 /pkg
 package-lock.json
 
+# Logs
+*.log
+
+# IDE
+TAGS
