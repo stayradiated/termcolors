@@ -72,6 +72,7 @@ fs.writeFile('~/config.itermcolors', iterm);
 | Sublime Text / Textmate | `textmate`    |        | ✅      |
 | Tilix                   | `tilix`       |        | ✅      |
 | Wal                     | `wal`         |        | ✅     |
+| Windows Terminal        | `winterminal` | ✅      | ✅      |
 | XFCE4 Terminal          | `xfce`        |        | ✅      |
 | Xresources              | `xresources`  | ✅      | ✅      |
 
