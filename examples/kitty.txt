@@ -21,7 +21,7 @@ color8                  #4d4d4d
 
 # red
 color1                  #cc0403
-color09                 #3e0605
+color9                  #3e0605
 
 # green
 color2                  #19cb00

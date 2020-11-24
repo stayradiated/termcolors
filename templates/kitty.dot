@@ -21,7 +21,7 @@ color8                  {{=c[8]}}
 
 # red
 color1                  {{=c[1]}}
-color09                 {{=c[9]}}
+color9                  {{=c[9]}}
 
 # green
 color2                  {{=c[2]}}
